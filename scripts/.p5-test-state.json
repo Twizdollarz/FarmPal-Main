@@ -1,0 +1,12 @@
+{
+  "coopId": "coop-1790940852321-82903",
+  "coopName": "Zaria Horticultural Cooperative Society",
+  "bulkPoolId": "pool-1790940852512-749092",
+  "farmerAPledgedQty": 50,
+  "farmerBPledgedQty": 30,
+  "expectedTotalPledged": 80,
+  "aggPoolId": "agg-1790940852663-586370",
+  "farmerACommittedVol": 80,
+  "farmerBCommittedVol": 45,
+  "expectedTotalVol": 125
+}

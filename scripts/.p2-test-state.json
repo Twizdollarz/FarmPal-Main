@@ -1,0 +1,8 @@
+{
+  "farmerAItem1Id": "inv-1790940834633-229655",
+  "farmerAItem1ExpectedQty": 12,
+  "farmerAItem1ExpectedStatus": "low_stock",
+  "deletedItem2Id": "inv-1790940834662-227161",
+  "concurrentItem3Id": "inv-1790940834678-54763",
+  "concurrentItem3ExpectedQty": 25
+}

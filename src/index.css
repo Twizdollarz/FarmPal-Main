@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *, .dark, .dark *));
+
+@layer base {
+  :root {
+    --apple-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "SF Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --apple-mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    /* Apple Light Mode System Values */
+    --app-bg: #F5F5F7;
+    --app-card: #FFFFFF;
+    --app-card-border: rgba(0, 0, 0, 0.05);
+    --app-inset: #F5F5F7;
+    --app-inset-border: rgba(0, 0, 0, 0.03);
+    --app-text: #1D1D1F;
+    --app-text-muted: #86868B;
+    --app-header-bg: rgba(245, 245, 247, 0.85);
+    --app-header-border: rgba(0, 0, 0, 0.06);
+    --app-segmented-bg: rgba(118, 118, 128, 0.12);
+    --app-segmented-active: #FFFFFF;
+    --app-segmented-active-text: #1D1D1F;
+    --app-btn-secondary-bg: rgba(0, 0, 0, 0.04);
+    --app-btn-secondary-hover: rgba(0, 0, 0, 0.08);
+    --app-btn-secondary-border: rgba(0, 0, 0, 0.06);
+  }
+
+  [data-theme="dark"],
+  .dark {
+    /* Apple Dark Mode System Values (iOS / macOS Dark Palette) */
+    --app-bg: #000000;
+    --app-card: #1C1C1E;
+    --app-card-border: rgba(255, 255, 255, 0.08);
+    --app-inset: #2C2C2E;
+    --app-inset-border: rgba(255, 255, 255, 0.06);
+    --app-text: #F5F5F7;
+    --app-text-muted: #98989D;
+    --app-header-bg: rgba(28, 28, 30, 0.85);
+    --app-header-border: rgba(255, 255, 255, 0.08);
+    --app-segmented-bg: rgba(118, 118, 128, 0.28);
+    --app-segmented-active: #3A3A3C;
+    --app-segmented-active-text: #FFFFFF;
+    --app-btn-secondary-bg: rgba(255, 255, 255, 0.08);
+    --app-btn-secondary-hover: rgba(255, 255, 255, 0.14);
+    --app-btn-secondary-border: rgba(255, 255, 255, 0.1);
+  }
+
+  body {
+    font-family: var(--apple-font);
+    background-color: var(--app-bg);
+    color: var(--app-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.012em;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  /* Tabular numbers for all financial, metric, and date displays */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Apple-style sleek scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(120, 120, 128, 0.25);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(120, 120, 128, 0.45);
+  }
+
+  /* Smooth focus states */
+  *:focus-visible {
+    outline: 2px solid #0071E3;
+    outline-offset: 1px;
+  }
+}
+
+/* Apple Theme Utilities */
+.bg-apple-canvas {
+  background-color: var(--app-bg);
+}
+
+.bg-apple-card {
+  background-color: var(--app-card);
+}
+
+.bg-apple-inset {
+  background-color: var(--app-inset);
+}
+
+.text-apple-primary {
+  color: var(--app-text);
+}
+
+.text-apple-secondary {
+  color: var(--app-text-muted);
+}
+
+.border-apple-card {
+  border-color: var(--app-card-border);
+}
+
+.border-apple-inset {
+  border-color: var(--app-inset-border);
+}
+
+.bg-apple-header {
+  background-color: var(--app-header-bg);
+}
+
+.border-apple-header {
+  border-color: var(--app-header-border);
+}
+
+.bg-apple-segmented {
+  background-color: var(--app-segmented-bg);
+}
+
+.bg-apple-segmented-active {
+  background-color: var(--app-segmented-active);
+  color: var(--app-segmented-active-text);
+}
+
+.bg-apple-secondary-btn {
+  background-color: var(--app-btn-secondary-bg);
+  border-color: var(--app-btn-secondary-border);
+}
+
+.bg-apple-secondary-btn:hover {
+  background-color: var(--app-btn-secondary-hover);
+}

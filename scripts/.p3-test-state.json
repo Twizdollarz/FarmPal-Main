@@ -1,0 +1,12 @@
+{
+  "cropAId": "crop-1790940839614-968",
+  "cropBId": "crop-1790940839634-471",
+  "task1Id": "task-1790940839652-981960",
+  "taskToDeleteId": "task-1790940839737-305452",
+  "surviveTaskId": "task-1790940839788-33510",
+  "expectedTask1Completed": true,
+  "expectedBudgetAYield": 200,
+  "expectedBudgetAPrice": 25000,
+  "expectedBudgetBYield": 95,
+  "expectedBudgetBPrice": 14000
+}

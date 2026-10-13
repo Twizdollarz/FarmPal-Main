@@ -1,0 +1,19 @@
+{
+  "farmerA": {
+    "profileName": "Alhaji Alpha Farmer",
+    "profileLocation": "Zaria, Kaduna",
+    "cropId": "crop-1790940828264-535",
+    "expKeepId": "exp-1790940828280-263",
+    "expDelId": "exp-1790940828294-494",
+    "labourId": "lab-1790940828339-625",
+    "harvestId": "harv-1790940828382-269",
+    "saleId": "sale-1790940828398-916",
+    "paymentId": "pay-1790940828414-453",
+    "waExpId": "exp-1790940828456-445",
+    "waSaleId": "sale-1790940828472"
+  },
+  "farmerB": {
+    "profileName": "Chief Beta Farmer",
+    "profileLocation": "Oyo, Nigeria"
+  }
+}

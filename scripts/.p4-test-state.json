@@ -1,0 +1,15 @@
+{
+  "fb1Id": "fb-1790940846498-878438",
+  "delFbId": "fb-1790940846542-602477",
+  "fbBId": "fb-1790940846604-412816",
+  "concurrentIds": [
+    "fb-1790940846650-298848",
+    "fb-1790940846653-146228",
+    "fb-1790940846656-303153",
+    "fb-1790940846663-562419",
+    "fb-1790940846660-90639"
+  ],
+  "expectedFb1Rating": 5,
+  "expectedFb1WhatWorked": "The market price comparison for Dawanau vs Mile 12 was accurate and helped us negotiate.",
+  "expectedFbBMessage": "USSD interface is extremely fast and reliable for offline daily farm logs."
+}

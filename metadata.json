@@ -1,0 +1,6 @@
+{
+  "name": "FarmPal",
+  "description": "Simple and intelligent farm record-keeping, crop budgets, storehouse inventory, market price intelligence, and farmer records notebook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
